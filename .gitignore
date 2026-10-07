@@ -8,7 +8,6 @@ out/
 .vscode/
 
 ## Secrets — NEVER commit these
-appsettings.Production.json
 appsettings.Local.json
 *.pfx
 *.p12

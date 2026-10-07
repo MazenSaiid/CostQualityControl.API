@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CostQualityControl.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66131fd64052101961234e575a652dea511c26c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28583597b0a34919c21f7e96b69b069ef4227d6f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CostQualityControl.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CostQualityControl.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
