@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: costquality-api
+    runtime: dotnet
+    buildCommand: dotnet publish -c Release -o out
+    startCommand: dotnet out/CostQualityControl.API.dll
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: ConnectionStrings__DefaultConnection
+        sync: false
+      - key: Jwt__Key
+        sync: false
+      - key: Jwt__Issuer
+        value: CostQualityControl.API
+      - key: Jwt__Audience
+        value: CostQualityControl.Frontend
+      - key: AllowedOrigins__0
+        sync: false
