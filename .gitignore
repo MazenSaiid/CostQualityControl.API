@@ -1,0 +1,22 @@
+## .NET / ASP.NET Core
+bin/
+obj/
+out/
+*.user
+*.suo
+.vs/
+.vscode/
+
+## Secrets — NEVER commit these
+appsettings.Production.json
+appsettings.Local.json
+*.pfx
+*.p12
+secrets.json
+
+## EF Core
+# (migrations are committed intentionally)
+
+## OS
+.DS_Store
+Thumbs.db
